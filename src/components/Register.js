@@ -10,6 +10,7 @@ const Register = () => {
         confirmPassword: "",
         email: ""
     })
+
     const changeInputHandle = (e) => {
         //console.log(e.target.name);
         //console.log(e.target.value);
@@ -72,7 +73,7 @@ const Register = () => {
                 <Link to="/login">Login</Link>
                 <Link to="/">Home</Link>
             </div>
-        </form>
+        </form >
     )
 }
 export default Register;
